@@ -5,11 +5,34 @@
   --foreground: #121212;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Neobrutalism Design Tokens */
+  --color-neo-bg: #FAF7EE;
+  --color-neo-black: #121212;
+  --color-neo-white: #FFFFFF;
+
+  --color-neo-yellow: #FFE600;
+  --color-neo-yellow-light: #FEF08A;
+  --color-neo-pink: #FF6B6B;
+  --color-neo-pink-light: #FECDD3;
+  --color-neo-mint: #86EFAC;
+  --color-neo-mint-dark: #A3E635;
+  --color-neo-purple: #C084FC;
+  --color-neo-purple-light: #E9D5FF;
+  --color-neo-blue: #38BDF8;
+  --color-neo-blue-light: #BAE6FD;
+
+  /* Neobrutalism Hard Drop Shadows */
+  --shadow-neo-sm: 2px 2px 0px 0px #000000;
+  --shadow-neo: 4px 4px 0px 0px #000000;
+  --shadow-neo-md: 5px 5px 0px 0px #000000;
+  --shadow-neo-lg: 6px 6px 0px 0px #000000;
+  --shadow-neo-xl: 8px 8px 0px 0px #000000;
 }
 
 body {
@@ -18,3 +41,16 @@ body {
   font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   min-height: 100vh;
 }
+
+/* Neobrutalism Link Card Background Utilities */
+.bg-\[\#FEF08A\] { background-color: #FEF08A !important; }
+.bg-\[\#86EFAC\] { background-color: #86EFAC !important; }
+.bg-\[\#E9D5FF\] { background-color: #E9D5FF !important; }
+.bg-\[\#FECDD3\] { background-color: #FECDD3 !important; }
+.bg-\[\#BAE6FD\] { background-color: #BAE6FD !important; }
+.bg-\[\#FED7AA\] { background-color: #FED7AA !important; }
+.bg-\[\#FCA5A5\] { background-color: #FCA5A5 !important; }
+.bg-\[\#DDD6FE\] { background-color: #DDD6FE !important; }
+.bg-\[\#A7F3D0\] { background-color: #A7F3D0 !important; }
+.bg-\[\#FDE047\] { background-color: #FDE047 !important; }
+.bg-\[\#FFE600\] { background-color: #FFE600 !important; }
